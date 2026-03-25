@@ -1,0 +1,6 @@
+# AgDR-FullSystem v2.1 — Peak Coherence Edition
+# Core dependencies
+
+sentence-transformers>=2.2.0
+torch>=2.0.0
+sparse-merkle-tree>=0.1.0
