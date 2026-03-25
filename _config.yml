@@ -1,0 +1,9 @@
+title: "AgDR-FSv2.1 — Full System Reference Implementation"
+description: "Complete open-source AgDR v2.1 reference implementation: atomic AKI capture, Sparse Merkle Tree sensory spine, embedding deviation critic, Byzantine BFT consensus, zk-proofs, and multi-agent swarm orchestration. Built on accountability.ai's AgDR standard."
+url: "https://aiccountability-source.github.io"
+baseurl: "/AgDR-FSv2.1"
+theme: jekyll-theme-primer
+
+plugins:
+  - jekyll-sitemap
+    - jekyll-seo-tag
