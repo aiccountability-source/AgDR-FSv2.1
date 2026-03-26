@@ -1,6 +1,18 @@
-# AgDR-FullSystem v2.1 — Peak Coherence Edition
-# Core dependencies
+# AgDR Eternal Witness v3.0
+# Core dependencies + v3.0 hardened extras
 
+# Core (from v2.1)
 sentence-transformers>=2.2.0
 torch>=2.0.0
 sparse-merkle-tree>=0.1.0
+
+# v3.0 Cryptographic layer
+blake3
+ed25519
+cryptography
+
+# v3.0 API & Runtime
+fastapi
+uvicorn
+asyncio
+pyyaml
