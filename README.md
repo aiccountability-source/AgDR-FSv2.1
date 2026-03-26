@@ -86,7 +86,7 @@ Observation
 | `agdr_eternal_witness_v3_0.py` | Core v3.0 implementation with all hardened components |
 | `agdr_fullsystem_v2_1.py` | Original v2.1 reference implementation (backward compatible) |
 | `requirements.txt` | All dependencies for v3.0 |
-| `LICENSE` | Apache 2.0 |
+| `LICENSE` | CC0-1.0 OR Apache-2.0 |
 | `docs/` | Additional documentation |
 
 ## What Is AgDR?
@@ -109,10 +109,12 @@ Exhaustive technical specifications for every component of the system are availa
     - - [**Byzantine Fault Tolerant Consensus**](docs/BYZANTINE_CONSENSUS.md) — BFT validation layer with zk-proof integration, fault tolerance bounds (n >= 3f+1), atomic rollback on failure, and swarm consensus configuration
       - - [**PPP Triplet and Fiduciary Office Intervener**](docs/PPP_TRIPLET_AND_FOI.md) — The Provenance-Place-Purpose policy core, FOI human anchoring chain, AgDR record schema, legal admissibility design, and escalation mechanics
         - - [**Cryptographic Primitives and zk-Proof Architecture**](docs/CRYPTOGRAPHIC_PRIMITIVES.md) — BLAKE2b/BLAKE3 hashing, Ed25519 signatures, zero-knowledge proof stubs with production integration paths (gnark, circom, halo2), and forward secrecy properties
-          -
-          - ## License
 
-Apache 2.0 -- See [LICENSE](LICENSE) for details.
+## License
+
+Dual licensed under [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode) OR [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) — See [LICENSE](LICENSE) for details.
+
+SPDX-License-Identifier: `CC0-1.0 OR Apache-2.0`
 
 ## Contributing
 
