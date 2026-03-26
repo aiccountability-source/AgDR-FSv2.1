@@ -1,0 +1,48 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+          <loc>https://aiccountability-source.github.io/AgDR-FSv2.1/</loc>
+          <lastmod>2025-03-25</lastmod>
+          <changefreq>weekly</changefreq>
+          <priority>1.0</priority>
+    </url>
+    <url>
+          <loc>https://aiccountability-source.github.io/AgDR-FSv2.1/docs/BYZANTINE_CONSENSUS</loc>
+          <lastmod>2025-03-25</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+    </url>
+    <url>
+          <loc>https://aiccountability-source.github.io/AgDR-FSv2.1/docs/DEVIATION_CRITIC</loc>
+          <lastmod>2025-03-25</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+    </url>
+    <url>
+          <loc>https://aiccountability-source.github.io/AgDR-FSv2.1/docs/PPP_TRIPLET_AND_FOI</loc>
+          <lastmod>2025-03-25</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+            </url>
+    <url>
+          <loc>https://aiccountability-source.github.io/AgDR-FSv2.1/docs/DECISION_PIPELINE</loc>
+          <lastmod>2025-03-25</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+    </url>
+    <url>
+          <loc>https://aiccountability-source.github.io/AgDR-FSv2.1/docs/CRYPTOGRAPHIC_PRIMITIVES</loc>
+          <lastmod>2025-03-25</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+    </url>
+    <url>
+          <loc>https://aiccountability-source.github.io/AgDR-FSv2.1/docs/SPARSE_MERKLE_SPINE</loc>
+          <lastmod>2025-03-25</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+    </url>
+</urlset>
