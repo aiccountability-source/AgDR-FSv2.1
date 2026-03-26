@@ -1,9 +1,3 @@
----
-layout: default
-title: Home
-nav_order: 1
----
-
 # AgDR Eternal Witness v3.0
 
 Complete open-source evolution of the AgDR (Atomic Genesis Decision Record) standard. Turns any AI inference into an eternally auditable, cryptographically sealed, court-admissible record that survives Byzantine swarms, memory exhaustion, adversarial drift, and planetary-scale chaos.
