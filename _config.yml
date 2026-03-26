@@ -3,6 +3,7 @@ description: "Complete open-source AgDR v2.1 reference implementation: atomic AK
 url: "https://aiccountability-source.github.io"
 baseurl: "/AgDR-FSv2.1"
 theme: jekyll-theme-primer
+google_site_verification: ic0huK1VNGvmKQLQHRfviJ-6JQyhuA5s40OCmXp0WOw
 
 plugins:
   - jekyll-sitemap
