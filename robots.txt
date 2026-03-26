@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aiccountability-source.github.io/AgDR-FSv2.1/sitemap.xml

@@ -99,7 +99,18 @@ Every AgDR record is simultaneously:
 - A **training dataset** (for future model improvement)
 - A **legal instrument** (court-admissible under Canada Evidence Act and equivalent frameworks)
 
-## License
+## Technical Documentation
+
+Exhaustive technical specifications for every component of the system are available in the `docs/` directory:
+
+- [**Decision Pipeline and Atomic AKI Capture**](docs/DECISION_PIPELINE.md) — The complete 10-step atomic pipeline from observation to sealed record, including the 3.94 us AKI kernel transaction, swarm orchestration, and public audit API
+- - [**Sparse Merkle Tree Sensory Spine**](docs/SPARSE_MERKLE_SPINE.md) — The live, forward-secret, tamper-evident memory substrate: 256-bit SMT architecture, SQLite persistence, chain verification, latency enforcement, and sensory context windowing
+  - - [**Embedding-Based Deviation Critic**](docs/DEVIATION_CRITIC.md) — Real-time coherence enforcement via sentence-transformer embeddings (all-MiniLM-L6-v2), exponential decay weighting, threshold tuning, and drift correction mechanics
+    - - [**Byzantine Fault Tolerant Consensus**](docs/BYZANTINE_CONSENSUS.md) — BFT validation layer with zk-proof integration, fault tolerance bounds (n >= 3f+1), atomic rollback on failure, and swarm consensus configuration
+      - - [**PPP Triplet and Fiduciary Office Intervener**](docs/PPP_TRIPLET_AND_FOI.md) — The Provenance-Place-Purpose policy core, FOI human anchoring chain, AgDR record schema, legal admissibility design, and escalation mechanics
+        - - [**Cryptographic Primitives and zk-Proof Architecture**](docs/CRYPTOGRAPHIC_PRIMITIVES.md) — BLAKE2b/BLAKE3 hashing, Ed25519 signatures, zero-knowledge proof stubs with production integration paths (gnark, circom, halo2), and forward secrecy properties
+          -
+          - ## License
 
 Apache 2.0 -- See [LICENSE](LICENSE) for details.
 
