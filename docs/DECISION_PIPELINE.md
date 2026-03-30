@@ -16,7 +16,7 @@ The Atomic AKI (Accountability Kernel Instant) capture at Step 6 is the indivisi
 
 ### Step 1 — Sensory Spine Read
 
-Retrieves the 100 most recent Merkle-chained records and formats them into sensory context. Subject to the 3.94 us latency bound. See `SPARSE_MERKLE_SPINE.md`.
+Retrieves the 100 most recent Merkle-chained records and formats them into sensory context. Subject to the 3.94 microseconds latency bound. See `SPARSE_MERKLE_SPINE.md`.
 
 ### Step 2 — Model Inference
 
@@ -34,7 +34,7 @@ Constructs Provenance-Place-Purpose policy triplet anchoring the decision to ide
 
 Generates BLAKE2b digest proof attesting to coherence score and PPP integrity. Interface stub for production zk-STARK/zk-SNARK circuits.
 
-### Step 6 — Atomic AKI Capture (3.94 us)
+### Step 6 — Atomic AKI Capture (3.94 microseconds)
 
 ```python
 record_obj = aki_capture(
@@ -68,7 +68,7 @@ record_obj = aki_capture(
 
                     ## Atomicity Guarantees
 
-                    **AKI Capture Atomicity (Step 6):** Indivisible kernel transaction at 3.94 us. No intermediate state between inference and record.
+                    **AKI Capture Atomicity (Step 6):** Indivisible kernel transaction at 3.94 microseconds. No intermediate state between inference and record.
 
                     **SQLite Transaction Atomicity (Step 9):** IMMEDIATE isolation. Full commit or full rollback.
 
