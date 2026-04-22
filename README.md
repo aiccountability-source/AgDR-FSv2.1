@@ -1,3 +1,13 @@
+# AgDR FS 2.1 and Eternal Witness 3.0 (Archived)
+
+This repository is deprecated and no longer maintained.
+
+Please refer to the active AgDR repositories:
+
+- [AgDR Core](https://github.com/aiccountability-source/AgDR) - The standard
+- [AgDR-Phoenix](https://github.com/aiccountability-source/AgDR-Phoenix) - Rust SDK + Python bindings
+- [AgDR-Mantle](https://github.com/aiccountability-source/AgDR-Mantle) - Post-quantum fortification
+
 # AgDR Eternal Witness v3.0
 
 Complete open-source evolution of the AgDR (Atomic Genesis Decision Record) standard. Turns any AI inference into an eternally auditable, cryptographically sealed, court-admissible record that survives Byzantine swarms, memory exhaustion, adversarial drift, and planetary-scale chaos.
